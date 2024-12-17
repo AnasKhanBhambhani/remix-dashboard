@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "camera",
+      "description": "this is nikon camera",
+      "price": "220"
+    },
+    {
+      "id": 1,
+      "name": "basket",
+      "description": "this is  basket",
+      "price": "210"
+    },
+    {
+      "id": "f988",
+      "name": "umberalla",
+      "description": "111",
+      "price": "111"
+    },
+    {
+      "id": "8d54",
+      "name": "fdfdf",
+      "description": "111",
+      "price": "11"
+    }
+  ],
+  "login": [
+    {
+      "userid": 1,
+      "email": "anas@gmail.com",
+      "password": "12345"
+    },
+    {
+      "userid": 2,
+      "email": "anaskhan@gmail.com",
+      "password": 12345
+    }
+  ]
+}
