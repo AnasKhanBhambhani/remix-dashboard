@@ -57,7 +57,7 @@ export default function ProductControl() {
             <div className="flex justify-center items-center p-32">
                 <Row gutter={[16, 16]}>
                     <Col span={24}>
-                        <h1 className="text-lg font-extrabold">Add Products</h1>
+                        <h1 className="text-lg font-extrabold">Add Products master</h1>
                     </Col>
                     <div className="p-24 rounded-lg shadow-2xl bg-blue-50">
                         <Form method="post">
