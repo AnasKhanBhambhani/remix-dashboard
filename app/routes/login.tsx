@@ -37,23 +37,26 @@ export default function Login() {
     const actionData = useActionData<ErrorType>();
     return (
         <div className=" w-[100vw] h-[100vh] flex justify-center items-center">
-           <div className="bg-slate-200 shadow-2xl p-32">
-           <Form method="post">
-                <label>
-                    Username: <input type="text" name="username" />
-                </label>
-                <br />
-                <br />
-                <label>
-                    Password: <input type="password" name="password" />
-                </label>
-                <br />
-                <br />
-                <div className="text-center">
-                <button className="bg-blue-500 px-6 py-4 rounded-2xl" type="submit">Login</button>
-                </div>
-            </Form>
-           </div>
+            <div>
+                <h1>this is not master this is other branch</h1>
+            </div>
+            <div className="bg-slate-200 shadow-2xl p-32">
+                <Form method="post">
+                    <label>
+                        Username: <input type="text" name="username" />
+                    </label>
+                    <br />
+                    <br />
+                    <label>
+                        Password: <input type="password" name="password" />
+                    </label>
+                    <br />
+                    <br />
+                    <div className="text-center">
+                        <button className="bg-blue-500 px-6 py-4 rounded-2xl" type="submit">Login</button>
+                    </div>
+                </Form>
+            </div>
             {actionData?.error && <p>{actionData.error}</p>}
         </div>
     );
