@@ -37,10 +37,8 @@ export default function Login() {
     const actionData = useActionData<ErrorType>();
     return (
         <div className=" w-[100vw] h-[100vh] flex justify-center items-center">
-            <div>
-                <h1>this is not master this is other branch</h1>
-            </div>
             <div className="bg-slate-200 shadow-2xl p-32">
+                <h1>yes ok</h1>
                 <Form method="post">
                     <label>
                         Username: <input type="text" name="username" />
